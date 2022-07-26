@@ -20,7 +20,7 @@ def outline(image):
     return th3
 
 
-image = 'D:\\Innovation\\Python_Programs\\Python_Animations\\shiva.png'
+image = 'shiva.png'
 im = cv2.imread(image,0)
 th3 = outline(image=image)
 
